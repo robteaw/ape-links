@@ -18,40 +18,55 @@
     <!-- Animate  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <!-- Main -->
-    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/navbar2.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="css/gotop.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
 </head>
 
-<div class="above-nav">
-    <div class="container">
-        <!-- <img src="img/logo.png" alt=""> -->
-    </div>
-</div>
+
 <!--Navbar-->
-<nav class="nav">
-  <div class="container">
-      <div class="logo">
-          <a href="#"><img src="img/logo-name.png" alt=""></a>
+<section class="nav-bar">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="index.html"><img src="img/logo-name.png"></a>
       </div>
-      <div id="mainListDiv" class="main_list">
-          <ul class="navlinks">
-              <li><a class="active" href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <!-- <li><a href="academy.html">Al Academy</a></li> -->
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-      </div>
-      <span class="navTrigger">
-          <i></i>
-          <i></i>
-          <i></i>
-      </span>
-  </div>
-</nav>
+      <nav>
+        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#!">Service</a>
+                  <ul class="nav-dropdown">
+              <li>
+                <a href="local-seo.html">SEO</a>
+              </li>
+              <li>
+                <a href="google-ranking.html">Google Ranking</a>
+              </li>
+              <li>
+                <a href="pay-per-click.html">Pay Per Click</a>
+              </li>
+              <li>
+                <a href="website-audit.html">Website Audit</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
 <!-- End of Navbar -->
 
 <!-- Hero -->
@@ -60,7 +75,7 @@
         <h1 class="animated fadeInLeft delay-0.5s">The Internet's Most Ferocious SEO & Marketing Animal</h1>
         <p class="animated fadeInRight delay-1s">We have been ranking websites for over eight years now, and our SEO/PPC animals are the best in class and 
             are your competitor's dread. Learn why more companies are turning to Apelinks. Serving businesses big or small.</p>
-        <p class="animated fadeInLeft delay-2s"><a href="seo.html"><span>Learn more</span></a></p>
+        <p class="animated fadeInLeft delay-2s"><a href="contact.html"><span>Request Demo</span></a></p>
     </div>
 </section>
 <!-- End of Hero -->
@@ -257,6 +272,7 @@
 <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/ffdae726c5.js" crossorigin="anonymous"></script>
+<script src="js/navbar.js"></script>
 <script src="js/scripts.js"></script>
 
 </body>
