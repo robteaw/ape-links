@@ -74,8 +74,67 @@
 <!-- Container 1 -->
 <section id="top-container">
     <div class="container">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQRjJQVxs7Ek_rUgL4rU7GLZyxjgdr8ooSKahZNk1nWajlcQ/viewform?embedded=true" width="440" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <h2>Contact</h2>
+      <p>Please fill out this form and we'll be in touch soon.</p>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfQRjJQVxs7Ek_rUgL4rU7GLZyxjgdr8ooSKahZNk1nWajlcQ/viewform?embedded=true">
+      
+        <!-- Full Name -->
+        <label for="name">Full Name</label>
+        <input name="entry.1169089770" type="text" id="name"/>
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input name="entry.1169089770" type="text" id="email"/>
+        <!-- Phone Number -->
+        <label for="phone">Phone Number</label>
+        <input name="entry.1169089770" type="text" id="phone"/>
 
+        <!-- Dropdown -->
+        <label for="service">What service will you be requesting?</service>
+        <div class="input-wrap select-box">
+          <select name="entry.1781742467">
+            <option selected disabled>Choose</option>
+            <option value="SEO & PPC">SEO & PPC</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="Online Marketing">Online Marketing</option>
+            <option value="PR">PR</option>
+            <option value="Photography">Photography</option>
+            <option value="Videography">Videography</option>
+          </select>
+        </div>
+
+        <label for="duration">How long will this project be?</label>
+        <div class="input-wrap select-box">
+          <select name="entry.1781742467">
+            <option selected disabled>Choose</option>
+            <option value="Free Audit">Free Audit</option>
+            <option value="3 - 6 Weeks">3 - 6 Weeks</option>
+            <option value="7 - 22 Weeks">7 - 22 Weeks</option>
+            <option value="22 - 35 Weeks">22 - 35 Weeks</option>
+            <option value="52 - 104 Weeks">52 - 104 Weeks</option>
+          </select>
+        </div>
+  
+        <label for="location">How would you like us to work?</label>
+        <div class="input-wrap select-box">
+          <select name="entry.1781742467">
+            <option selected disabled>Choose</option>
+            <option value="Remote">Remote</option>
+            <option value="On Location">On Location</option>
+          </select>
+        </div>
+
+        <label for="web-crawl">Would you like a free web crawl?</label>
+        <div class="input-wrap select-box">
+          <select name="entry.1781742467">
+            <option selected disabled>Choose</option>
+            <option value="Accept">Accept Free Web Crawl</option>
+            <option value="Decline">Decline Free Web Crawl</option>
+          </select>
+        </div>
+  
+        <!-- Submit Button -->
+        <input class="button" type="submit" value="Submit">
+      </form>
     </div>
 </section>
 <!-- End of Container 1 -->
@@ -141,3 +200,12 @@
 
 </body>
 </html>
+
+
+
+<style>
+  .freebirdFormviewerViewFooterFooterContainer {
+      display: none !important;
+      font-size: 38px;
+  }
+  </style>
