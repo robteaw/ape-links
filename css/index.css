@@ -126,13 +126,13 @@ body {
     background: white;
 }
 
-.myH2 {
+.header {
     text-align:center;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.myP {
+.header-p {
     text-align: left;
     padding-left:15%;
     padding-right:15%;
