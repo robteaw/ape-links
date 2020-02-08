@@ -11,8 +11,8 @@
     color: #fff;
     cursor: pointer;
     border: none;
-    /* opacity: 0.2; */
     pointer-events: none;
+    opacity: 0.4;
     transition: opacity .3s ease-in-out;
   }
   
