@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- CSS -->
+<link href="{{ url_for( 'static', filename='css/audit.css') }}" rel="stylesheet">
+
+
+<!-- Container 1 -->
+<section id="top-container">
+    <div class="container">
+        <h2>Texas SEO Services & Monthly Campaigns</h2>
+        <p class="animated fadeInLeft delay-0.5s"><a href="{{ url_for('contact') }}"><span>Free Quote</span></a></p>
+    </div>
+</section>
+<!-- End of Container 1 -->
+
+
+<!-- Container 2 -->
+<section id="container2">
+    <div class="container">
+        <div class="row">
+            <div class="col s3 m3 13 center-align">
+                <img class="image" src="{{ url_for('static', filename='img/business.png') }}" alt="">
+            </div>
+            <div class="col s3 m3 13 center-align">
+                <h2 class="header">Let's Grow Your Business.</h2>
+                <p class="header-p">We're The Monkeys To Do It.</p>
+                <p>We tailor every SEO campaign based on industry, competition, location, and your business goals.</p>
+                <p>Serving a wide range of industries, including legal, oil & gas,  energy, warehouse, manufacturing, 
+                    retail, medical, e-commerce, industrial, martial arts schools, AC repair, and many more.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Container 2 -->
+
+<!-- Container 3 -->
+<section id="container3">
+    <div class="container">
+      <h2>3 Phases to SEO</h2>
+          <div class="row">
+  <!-- Card 1 -->
+            <div class="col-lg-3 col-md-3">
+              <div class="card">
+                <div class="card-body">
+                  <img class="photo" src="{{ url_for('static', filename='img/mechanical.png') }}" alt="" class="img-fluid rounded-circle w-50 mb-3">               
+                  <h4>Phase 1</h4>
+                    <p class="skill">Determine the mechanical reasons your website is falling behind competitors.</p>
+                </div>
+              </div>
+          </div>
+  <!-- Card 2 -->
+          <div class="col-lg-3 col-md-3">
+            <div class="card">
+              <div class="card-body">
+                <img class="photo" src="{{ url_for('static', filename='img/clipboard.png') }}" alt="" class="img-fluid rounded-circle w-50 mb-3">               
+                <h4>Phase 2</h4>
+                  <p class="skill">Run test campaigns to gauge how well your audience responds to different marketing strategies</p>
+              </div>
+            </div>
+        </div>
+    <!-- Card 3 -->
+        <div class="col-lg-3 col-md-3">
+        <div class="card">
+            <div class="card-body">
+            <img class="photo" src="{{ url_for('static', filename='img/binocular.png') }}" alt="" class="img-fluid rounded-circle w-50 mb-3">               
+            <h4>Phase 3</h4>
+                <p class="skill">35 weeks later you should be seeing dramatic results. Sit back, relax, and let our analytic research keep you afloat.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>
+<!-- End of Container 3 -->
+
+<!-- Container 4 -->
+<section id="container4">
+    <div class="container">
+        <div class="row">
+            <div class="col s3 m3 13 center-align column-left">
+                <h2 class="header">Lead The Market</h2>
+                <p class="header-p">With the plethora of expertise we have with Houston SEO, web design, social media marketing, and reputation management, 
+                    we are the dominant search optimization agency in Texas. We flood the first page of Google for clients on a local, and global level..</p>
+                <p>The sad part is, most Houston SEO companies have no clue how to preform up-to-date search engine marketing, and will 
+                    only stagnate or hinder your website, and reputation, in the search engines by doing very poor quality SEO tactics. We 
+                    stand firm by what we do, and our results speak for themselves.</p>
+            </div>
+            <div class="col s3 m3 13 center-align">
+                <img class="image2" src="{{ url_for('static', filename='img/success.png') }}" alt="">
+            </div>
+    </div>
+</section>
+<!-- End of Container 4 -->
+
+{% endblock %}

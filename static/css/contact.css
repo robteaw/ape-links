@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Quicksand", sans-serif;
+}
+
+#top-container {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.contact-form {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.header-p {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+label {
+	line-height: 30px;
+	padding-top: 25px;
+	font-size: 18px;
+}
+
+.ss-q-short {
+	padding: 2px 30px 2px 0;
+	font-family: FontAwesome;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	text-indent: 10px;
+	border-radius: 5px;
+	border: .5px solid gray;
+	outline: 0 none;
+}
+
+.ss-q-short:focus {
+	border: 2px solid green;
+	outline: 0 none;
+}
+
+select {
+	border: .5px solid gray;
+	outline: 0 none;
+	width: 250px;
+	padding: 2px 30px 2px 0;
+	border-radius: 2px;
+	background: #e1f5fe;
+	opacity: .85;
+	font-family: FontAwesome;
+}
+
+select:focus {
+	border: 2px solid green;
+	outline: 0 none;
+}
+
+select {
+	outline-width: 0;
+}
+
+#ss-submit {
+	margin-top: 20px;
+	margin-bottom: 100px;
+	background: #003300;
+	color: #fff;
+	border-radius: 4px;
+	padding: 6px 12px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	display: block;
+	justify-content: center;
+}
+
+#ss-submit:hover {
+	background: #43a047;
+}
+
+.jfk-button {
+	text-align: center;
+	margin: 0 auto;
+}

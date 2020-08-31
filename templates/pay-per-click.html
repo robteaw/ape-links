@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- CSS -->
+<link href="{{ url_for( 'static', filename='css/ppc.css') }}" rel="stylesheet">
+
+
+<!-- Container 1 -->
+<section id="top-container">
+    <div class="container">
+        <h2>Best in Class Search Management & A Google Certified Agency</h2>
+        <p>For new campaign setups, email or call now to discuss further.</p>
+        <p class="animated fadeInLeft delay-0.5s"><a href="{{ url_for('contact') }}"><span>Free PPC Review</span></a></p>
+    </div>
+</section>
+<!-- End of Container 1 -->
+
+
+<!-- Container 2 -->
+<section id="bottom-container">
+    <div class="container">
+        <div class="row">
+            <div class="col s3 m3 13 center-align">
+                <img class="image" src="{{ url_for('static', filename='img/ppc.png') }}" alt="">
+            </div>
+            <div class="col s3 m3 13 center-align">
+                <h2 class="header">SEO & PPC</h2>
+                <p class="header-p">search engine optimization & pay per click</p>
+                <p><b>SEO:</b> Is the science of building traffic for free by achieving high rankings in the natural search results.</p>
+                <p><b>PPC:</b> You can pay for traffic using the PPC advertising programs provided by Google Adwords, Yahoo Search 
+                    Marketing and others. They enable you to display ads in the sponsored results section of each search engine's 
+                    results page. Then, you pay a fee -- based on how competitive your chosen keyword is.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Container 2 -->
+
+{% endblock %}

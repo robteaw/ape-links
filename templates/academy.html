@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+    
+<!-- CSS -->
+<link href="{{ url_for( 'static', filename='css/academy.css') }}" rel="stylesheet">
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col s5 m3 13 center-align">
+                <div class="card">
+                    <div class="card-content">
+                        <img class="image" src="{{ url_for('static', filename='img/webdevelopment.jpg') }}" alt="">
+                        <h5>Al Academy</h5>
+                        <p>Simple Guides to Web Development</p>
+                        <p>Autonomous Design Instinct</p>
+                    </div>
+                    <!-- <div class="card-action"><a href="#"></a></div> -->
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col s5 m3 13 center-align">
+                <div class="card">
+                    <div class="card-content">
+                        <h5></h5>
+                        <p>Online Free Campus with 600+ articles and video tutorial.</p>
+                        <p>Learn with videos or read our in deph guides and notes.</p>
+                        <p>Forum and FAQ where other students can discuss new web development tips.</p>
+                        <p>Start today for a FREE site audit.</p>
+                        <p>Coming soon...</p>
+                    </div>
+                    <!-- <div class="card-action"><a href="#"></a></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
